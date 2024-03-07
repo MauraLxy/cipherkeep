@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="@color/grey" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/bronze"/>
+        </shape>
+    </item>
+    <!-- 悬停状态 -->
+    <item android:state_hovered="true">
+        <shape>
+            <corners android:radius="20dp"/>
+            <solid android:color="@color/bronze" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/bronze"/>
+        </shape>
+    </item>
+    <!-- 正常状态 -->
+    <item>
+        <shape>
+            <corners android:radius="20dp"/>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/bronze"/>
+        </shape>
+    </item>
+</selector>

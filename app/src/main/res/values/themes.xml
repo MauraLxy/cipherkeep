@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CipherKeep" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@drawable/gradient</item>
+        <item name="android:textColor">@color/bronze</item>
+    </style>
+</resources>

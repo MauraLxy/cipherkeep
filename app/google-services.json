@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092785565631",
+    "project_id": "cypherkeep",
+    "storage_bucket": "cypherkeep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092785565631:android:c8cd1be919a6e575c0bb0a",
+        "android_client_info": {
+          "package_name": "com.example.cipherkeep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_xKXD62xc05ntB_53AexQkxR9eLaVC8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
